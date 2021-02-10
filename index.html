@@ -1,0 +1,33 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yale-NUS College</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css" />
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+<div id="content">
+	<div id="header">
+		<div id="logo">
+			<img src="images/logo.png" alt="yale-nus college"/>
+		</div>	
+		<div id="search">
+			<form method="get">
+				<input required type="text" name="post" v-model="element" placeholder="thoughts?"/>
+				<button type="reset" v-on:click="addElement" :disabled="!canCreate">post </button>
+			</form>
+		</div>
+		<br>
+	</div>
+	
+	<div id="page">
+     <p v-for="item in dataThoughts">{{ item }} </p>
+	</div>
+</div>	
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script  src="js.js"></script>
+</body>
+</html>

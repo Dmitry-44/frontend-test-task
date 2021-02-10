@@ -1,0 +1,93 @@
+/*
+ * base styles 
+ * 
+ */
+
+html{
+	height: 100%;
+}
+
+body{
+	background-color: #e0e1e2;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=0 ); /* IE6-9 */
+
+	
+	font-size: 13px;
+	min-width: 800px;
+	
+}
+
+br{
+	clear: left;
+}
+
+
+#header{
+	background: #ffffff;
+	padding: 15px 15px 10px;
+	box-shadow: 0px 1px 5px #fff;
+}
+
+
+/*logo in header*/
+#logo{
+	display: inline-block;
+	float: left;
+}
+
+#logo img {
+	width: 240px;
+}
+
+/*search in header*/
+
+#search{
+
+	display: inline;
+    float: left;
+    left: 50%;
+    margin-left: -25%;
+    position: relative;
+    width: 500px;
+}
+#search input[name="post"]{
+	width: 300px;
+	padding: 2px 3px;
+	border: 2px solid #A2C4DA;
+	font-size: 1.2em;
+}
+
+#search button{
+	padding: 4px;
+	vertical-align: top;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #fff;
+	border: 1px solid #6FD6F7;
+}
+
+
+
+/*page content*/
+
+#page{
+	width: 800px;
+	
+background: rgba( 255, 255, 255, 0.3 );
+	border: 1px solid #ffffff;
+	margin: 20px auto 0px;
+	padding: 1em 2em;
+}
+
+.rand1{
+	
+}
+.rand2{
+	
+}
+.rand3{
+	
+}
+
+
+
+
